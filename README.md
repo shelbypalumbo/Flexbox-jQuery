@@ -6,8 +6,8 @@ A website built using jQuery and flexbox.
 
 #### Technologies Used
 
-jQuery
-Flexbox
+- jQuery
+- Flexbox
 
 #### Additional Styling
 
@@ -15,4 +15,4 @@ Flexbox
 
 #### Resources
 
--CSS Tricks | https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- CSS Tricks | https://css-tricks.com/snippets/css/a-guide-to-flexbox/
