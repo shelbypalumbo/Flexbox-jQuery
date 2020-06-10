@@ -2,7 +2,7 @@
 
 A website built using jQuery and flexbox.
 
-\*\*\*This is a learning/test web page used for brushing up on jQuery and learning how to incorporate Flexbox.
+\*\*\* This is a learning/test web page used for brushing up on jQuery and learning how to incorporate a Flexbox grid system.
 
 #### Technologies Used
 
