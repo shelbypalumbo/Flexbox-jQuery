@@ -11,7 +11,7 @@ A website built using jQuery and flexbox.
 
 #### Additional Styling
 
--Fontsawesome icons | https://fontawesome.com/icons?d=gallery&m=free
+- Fontsawesome icons | https://fontawesome.com/icons?d=gallery&m=free
 
 #### Resources
 
