@@ -1,8 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
 #header {
   color: pink;
-  font-size: 20pt;
-  padding: 20px;
+  font-size: 30pt;
+  padding: 40px;
   text-align: center;
+  background-color: rgb(196, 243, 243);
 }
 .container {
   max-width: 900px;
@@ -18,13 +26,15 @@
   flex: 6;
 }
 .navLink {
-  color: blue;
   list-style-type: none;
   flex: 1;
+  padding: 10px;
 }
 a {
+  color: rgb(0, 140, 255);
   text-decoration: none;
 }
+
 a:hover {
   color: paleturquoise;
 }
