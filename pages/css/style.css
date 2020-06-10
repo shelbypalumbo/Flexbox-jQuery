@@ -1,0 +1,30 @@
+#header {
+  color: pink;
+  font-size: 20pt;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  display: flex;
+  align-content: center;
+  margin: 40px auto 0 auto;
+}
+
+#navBar {
+  flex: 2;
+}
+.content {
+  flex: 6;
+}
+.navLink {
+  color: blue;
+  list-style-type: none;
+  flex: 1;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: paleturquoise;
+}
