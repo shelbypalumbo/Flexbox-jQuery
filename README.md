@@ -1,2 +1,2 @@
-# Flexbox_-_jQuery
+# Flexbox-Query
 A website built using jQuery and flexbox.
