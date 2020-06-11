@@ -16,3 +16,4 @@ A website built using jQuery and flexbox.
 #### Resources
 
 - CSS Tricks | https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Pexels Free Stock Photos | https://www.pexels.com/

@@ -5,6 +5,7 @@ body {
   height: 100%;
   width: 100%;
 }
+
 #header {
   color: pink;
   font-size: 30pt;
@@ -12,6 +13,7 @@ body {
   text-align: center;
   background-color: rgb(196, 243, 243);
 }
+
 .container {
   max-width: 900px;
   display: flex;
@@ -22,19 +24,31 @@ body {
 #navBar {
   flex: 2;
 }
+
 .content {
-  flex: 6;
+  flex: 8;
 }
+
 .navLink {
   list-style-type: none;
-  flex: 1;
   padding: 10px;
 }
+
 a {
-  color: rgb(0, 140, 255);
+  color: pink;
   text-decoration: none;
 }
 
 a:hover {
-  color: paleturquoise;
+  color: rgb(81, 170, 243);
+}
+
+.catalog-content {
+  flex: 8;
+}
+
+.catalog-img {
+  height: 300px;
+  flex: 1;
+  align-content: center;
 }

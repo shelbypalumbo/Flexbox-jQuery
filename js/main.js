@@ -1,6 +1,7 @@
 $(document).ready(function() {
   var header = $("#header");
   var navBar = $("#navBar");
+  var catalogContent = $(".catalog-content");
 
   var navLinksArray = [
     "<a href='index.html'><i class='fab fa-houzz'></i> Home</a>",
@@ -9,8 +10,10 @@ $(document).ready(function() {
   ];
   console.log(navLinksArray);
 
+  // Heading text
   header.text("Flexbox & jQuery");
 
+  // Building navbar link list
   for (var i = 0; i < navLinksArray.length; i++) {
     var navLinkList = $("<ul>");
     var navLinkItem = $("<li>");
@@ -20,5 +23,50 @@ $(document).ready(function() {
     console.log("LINK: ", Link);
     navLinkList.append(Link);
     navBar.append(navLinkList);
+  }
+
+  // Building catalog image content
+  var catalog = [
+    {
+      name: "Travels",
+      src: "./images/img_1.jpg",
+      title: "grafitti"
+    },
+    {
+      name: "Travels",
+      src: "./images/img_2.jpg",
+      title: "grafitti"
+    },
+    {
+      name: "Travels",
+      src: "./images/img_3.jpg",
+      title: "grafitti"
+    },
+    {
+      name: "Travels",
+      src: "./images/img_4.jpg",
+      title: "grafitti"
+    },
+    {
+      name: "Travels",
+      src: "./images/img_5.jpg",
+      title: "grafitti"
+    },
+    {
+      name: "Travels",
+      src: "./images/img_6.jpg",
+      title: "grafitti"
+    },
+    {
+      name: "Travels",
+      src: "./images/img_7.jpg",
+      title: "grafitti"
+    }
+  ];
+  for (var i = 0; i < catalog.length; i++) {
+    var img = $(
+      `<img class='catalog-img' src='${catalog[i].src}' alt='${catalog[i].name}'>`
+    );
+    catalogContent.append(img);
   }
 });
