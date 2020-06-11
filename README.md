@@ -4,6 +4,8 @@ A website built using jQuery and flexbox.
 
 \*\*\* This is a learning/test web page used for brushing up on jQuery and learning how to incorporate a Flexbox grid system.
 
+Deployed Application: https://shelbypalumbo.github.io/Flexbox-jQuery/
+
 #### Technologies Used
 
 - jQuery
