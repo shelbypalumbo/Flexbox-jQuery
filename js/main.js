@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  var header = $("#header");
-  var navBar = $("#navBar");
+  var header = $(".header");
+  var navBar = $(".navBar");
   var catalogContent = $(".catalog-content");
 
   var navLinksArray = [
@@ -11,7 +11,7 @@ $(document).ready(function() {
   console.log(navLinksArray);
 
   // Heading text
-  header.text("Flexbox & jQuery");
+  header.text("Flex-box & jQuery");
 
   // Building navbar link list
   for (var i = 0; i < navLinksArray.length; i++) {
