@@ -1,8 +1,8 @@
 # Flexbox-Query
 
-A website built using jQuery and flexbox.
+A website built using jQuery and flex-box.
 
-\*\*\* This is a learning/test web page used for brushing up on jQuery and learning how to incorporate a Flexbox grid system.
+\*\*\* This is a learning/test web page used for brushing up on jQuery and learning how to incorporate a Flex-box grid system.
 
 Deployed Application: https://shelbypalumbo.github.io/Flexbox-jQuery/
 
